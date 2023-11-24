@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const serverless = require('serverless-http');
 // const dotenv = require("dotenv");
 const PORT = 3000;
 const Redis = require("redis");
@@ -41,4 +40,3 @@ app.use("/api/product", productRoute);
 app.use("/api/category", categoryRote);
 
 
-module.exports.handler = serverless(app);

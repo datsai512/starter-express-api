@@ -1,32 +1,16 @@
 {
-<<<<<<< HEAD
-  "name": "starter-express-api",
-  "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cyclic-software/starter-express-api.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/starter-express-api/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
-  "dependencies": {
-    "express": "^4.18.2"
-=======
   "name": "babyshop",
   "version": "1.0.0",
   "description": "api-server",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -35,6 +19,5 @@
     "netlify-lambda": "^2.0.16",
     "redis": "^4.6.10",
     "serverless-http": "^3.2.0"
->>>>>>> dc33a36 (deploy)
   }
 }
